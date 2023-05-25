@@ -196,10 +196,15 @@ int main() {
 				break;
 			case'4':
 				obj.revtraverse();
+				break;
 			case'5':
 				obj.searchData();
 				break;
+			case '6' :
+				return 0;
 			default:
+				cout << "\ninvalid option" << endl;
+				break;
 			}
 		}
 		catch (exception& e) {
